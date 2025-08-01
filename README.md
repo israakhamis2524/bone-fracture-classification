@@ -1,73 +1,75 @@
+# 🦴 Bone Fracture Classification using Deep Learning
 
-# 🦴 Bone Fracture Classification Using Deep Learning
+This project aims to **automatically classify bone fractures** from X-ray images using **MobileNetV2** and **Convolutional Neural Networks (CNNs)**. The system is designed to distinguish between two types of fractures:
 
-## 📌 Project Overview
-This project aims to classify X-ray images of bone fractures into two main types:
 - **Comminuted Bone Fracture**
 - **Simple Bone Fracture**
 
-A pre-trained **MobileNetV2** model is used with a **Streamlit** interface to make predictions in real-time.
+---
+
+## 🧠 Project Motivation
+
+Bone fracture detection is a crucial part of radiological diagnostics. Automating this process helps reduce human error and speeds up medical response. This project uses transfer learning to achieve high accuracy with minimal training time.
 
 ---
 
-## 🧠 Technologies Used
-- Python
-- TensorFlow / Keras
-- MobileNetV2
-- OpenCV
-- Streamlit
-- Google Colab
-- Data Augmentation
-- Kaggle Dataset
+## 📁 Dataset
+
+- **Source:** Kaggle
+- **Structure:**
+  - `train/`
+  - `val/`
+  - `test/`
+  - Each contains 2 folders: `Comminuted Bone Fracture`, `Simple Bone Fracture`
+- Includes both **original** and **augmented** images.
 
 ---
 
-## 📂 Dataset
-The dataset was downloaded from **Kaggle** and contains X-ray images categorized as:
-- `Comminuted Bone Fracture`
-- `Simple Bone Fracture`
+## 🛠️ Tech Stack
 
-The data was augmented and split into:
-- Train
-- Validation
-- Test
-
----
-
-## 🚀 How to Run the App
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/bone-fracture-classification.git
-   cd bone-fracture-classification
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
+- **Python**
+- **TensorFlow / Keras**
+- **MobileNetV2**
+- **Streamlit**
+- **Google Colab**
+- **Matplotlib, NumPy, Pandas**
+- **Image Augmentation (ImageDataGenerator)**
 
 ---
 
-## 🖼️ Example Prediction
-Upload an X-ray image to see the predicted type of fracture.
+## 🚀 How It Works
+
+1. The model is trained using `MobileNetV2` pre-trained on ImageNet.
+2. Input images are preprocessed and passed to the model.
+3. The app predicts the class and displays the confidence for each.
+4. Built with an easy-to-use **Streamlit web interface**.
 
 ---
 
-## ✅ Model Performance
-Achieved high validation and test accuracy using MobileNetV2 with data augmentation. The model shows consistent performance on unseen data.
+## 📷 App Screenshot
+
+![App Screenshot](screenshot.png)
 
 ---
 
-## 🙋‍♀️ About Me
-👩‍💻 I’m Israa Khamis, an AI & Deep Learning enthusiast.  
-Trained at NTI & ITI in Machine Learning, Deep Learning.
-This project is part of my learning journey and portfolio.
+## 📈 Results
+
+- **Training Accuracy:** 97%
+- **Validation Accuracy:** 93%
+- **Test Accuracy:** 92.8%
 
 ---
+
+## 📌 Author
+
+**Israa Khamis**  
+AI Engineer | Machine Learning | Deep Learning   
+📎 [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/israa-khamis-0bb7ba365) • [GitHub](https://github.com/your-github)
+
+---
+
+## 💬 Acknowledgements
+
+Thanks to **Kaggle** for the dataset and **NTI AI Track** for the inspiration.
+
 
