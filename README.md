@@ -65,7 +65,7 @@ Bone fracture detection is a crucial part of radiological diagnostics. Automatin
 
 **Israa Khamis**  
 AI Engineer | Machine Learning | Deep Learning   
-📎 [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/israa-khamis-0bb7ba365) • [GitHub](https://github.com/your-github)
+📎 [LinkedIn](https://www.linkedin.com/in/https://www.linkedin.com/in/israa-khamis-0bb7ba365) • [GitHub](https://github.com/(https://github.com/israakhamis2545))
 
 ---
 
