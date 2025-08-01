@@ -50,6 +50,7 @@ Bone fracture detection is a crucial part of radiological diagnostics. Automatin
 
 ![App Screenshot](screenshot.png)
 
+
 ---
 
 ## 📈 Results
